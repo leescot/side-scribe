@@ -1,0 +1,23 @@
+# Cursor Rules for React+Vite+MUI
+
+framework:
+  - react
+  - vite
+  - mui
+
+clean_code:
+  # Prefer using Map or appropriate data structures instead of multiple if-else chains
+  use_data_structures:
+    if_else: "Map"
+
+  # Enforce single responsibility principle for all functions
+  single_responsibility: true
+
+  # Reduce code duplication across the codebase
+  avoid_duplication: true
+
+  # Enforce proper encapsulation to hide internal implementation details
+  encapsulation: true
+
+  # Limit file length; if >200 lines then split into modules
+  max_file_lines: 200
